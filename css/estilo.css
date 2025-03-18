@@ -1,0 +1,182 @@
+* {
+    margin: 0; /*remove a margem ao redor*/
+    padding: 0; /*remove o preenchimento no espaço interno*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container { /*container aplica a regra CSS ao elemento com id exemplo no index.html*/
+    margin: 0 auto; /*define a margem superior e inferior*/
+    width: 80%; /*define a largura do container com 80%*/
+}
+
+header,
+nav,
+main {
+    float: left; /*faz com que o elemento flutue a esquerda */
+}
+
+header {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+nav.superior,
+nav.topo {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+header {
+    height: 200px;
+    background-color: #b37883;
+}
+
+nav.superior {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav.lateral {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 29%;
+    background-color:#7a5058
+}
+
+main {
+    background-color: #b37883;
+    border-radius: 20px;
+    border: 1px dashed #7a5058;
+    width: 62%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: justify;
+    float: right;
+}
+main p,
+main h2 {
+    text-indent: 2%;
+}
+
+main h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+footer {
+    margin-top: 1%;
+    background-color: #b37883;
+    width: 100%;
+    height: 400px;
+    float: left
+}
+
+.logo {
+    width: 150px;
+}
+
+/*nav na vertical inicio*/
+nav.lateral ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav.lateral li a {
+    display: block;
+    color: #d6c3b9;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav.lateral li a:hover {
+    background-color: #e6dac6;
+    color: black;
+    text-indent: 10px;
+}
+
+nav.lateral .active{
+    background-color:#7a5058;
+    color: #d6c3b9;
+}
+
+/*nav vertical fim */
+
+/*nav topo inicio */
+
+nav.topo ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color:#c2b48a;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+nav.topo li {
+    display: inline-block;
+}
+
+nav.topo li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.topo li a:hover {
+    background-color: #c2b48a;
+}
+
+nav.topo .active {
+    background-color: #c2b48a;
+}
+
+/* nav topo fim*/
+
+/* nav superior inicio */
+
+nav.superior ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #d6c3b9;
+    text-align: center;
+}
+
+nav.superior li {
+    float: left;
+    /*border-right: 1px solid ; /*distancia entre as palavras*/
+}
+
+nav.superior li:last-child {
+    border-right: none;
+}
+
+nav.superior li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.superior li a:hover {
+    background-color: white;
+}
+
+nav.superior .active {
+    background-color: #d6c3b9;
+}
+
+/*nav topo fim*/
