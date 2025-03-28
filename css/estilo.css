@@ -242,7 +242,7 @@ table.tabela td{
 }
 
 table.tabela tr:nth-child(even) {
-    background-color: darkkhaki;
+    background-color: red;
 }
 
 table.tabela th {
