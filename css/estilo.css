@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+BR:wght@300&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tektur:wght@900&family=Winky+Sans:wght@300..900&display=swap');
 
 
@@ -22,8 +21,6 @@
     src: url(../fontes/anastomosis/Anastomosis-Regular.otf);
 }
 
-=======
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 * {
     margin: 0; /*remove a margem ao redor*/
     padding: 0; /*remove o preenchimento no espaço interno*/
@@ -31,15 +28,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
     background-image: url(../imagens/imagemfundo.avif);
     background-size: cover;
     /*background-size: cover;
     background-repeat: repeat-y;
     background-position: center;*/
     background-attachment: fixed;
-=======
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 }
 
 #container { /*container aplica a regra CSS ao elemento com id exemplo no index.html*/
@@ -67,11 +61,8 @@ nav.topo {
 
 header {
     height: 200px;
-<<<<<<< HEAD
     background-color: black;
-=======
     background-color: #b37883;
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 }
 
 nav.superior {
@@ -81,19 +72,16 @@ nav.superior {
 nav.lateral {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 29%;
-<<<<<<< HEAD
     background-color: #715342
 }
 
 main {
     background-color: #EBD7C3;
-=======
     background-color:#7a5058
 }
 
 main {
     background-color: #b37883;
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
     border-radius: 20px;
     border: 1px dashed #7a5058;
     width: 62%;
@@ -103,7 +91,6 @@ main {
     padding-bottom: 2%;
     text-align: justify;
     float: right;
-<<<<<<< HEAD
     font-family: "intermediario";
 }
 main h1 {
@@ -111,8 +98,6 @@ main h1 {
 }
 main p {
     font-family: 'Dosis';
-=======
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 }
 main p,
 main h2 {
@@ -127,19 +112,11 @@ main h2 {
 
 footer {
     margin-top: 1%;
-<<<<<<< HEAD
     background-color: rgb(150,100,100);
     width: 100%;
     height: 200px;
     float: left;
     font-family: 'Tektur';
-
-=======
-    background-color: #b37883;
-    width: 100%;
-    height: 400px;
-    float: left
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 }
 
 .logo {
@@ -155,16 +132,10 @@ nav.lateral ul {
 
 nav.lateral li a {
     display: block;
-<<<<<<< HEAD
     color: (0, 255, 255);
     padding: 8px 16px;
     text-decoration: none;
     font-family: 'basic';
-=======
-    color: #d6c3b9;
-    padding: 8px 16px;
-    text-decoration: none;
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 }
 
 nav.lateral li a:hover {
@@ -175,12 +146,8 @@ nav.lateral li a:hover {
 
 nav.lateral .active{
     background-color:#7a5058;
-<<<<<<< HEAD
     color: (255, 0, 255, 0.8);
     font-family: 'basic';
-=======
-    color: #d6c3b9;
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 }
 
 /*nav vertical fim */
@@ -197,10 +164,7 @@ nav.topo ul {
     top: 0%;
     width: 100%;
     text-align: center;
-<<<<<<< HEAD
     font-family: 'Playwrite';
-=======
->>>>>>> 50c933ea3b1ef0d05de5fb275f7e91e18b2da326
 }
 
 nav.topo li {
