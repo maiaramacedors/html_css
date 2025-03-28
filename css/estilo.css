@@ -245,7 +245,7 @@ table.tabela tr:nth-child(even) {
 }
 
 table.tabela th {
-    background-color: gray;
+    background-color: black;
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
