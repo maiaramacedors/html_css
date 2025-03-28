@@ -124,10 +124,7 @@ footer {
 .logo {
     width: 150px;
 }
-.alunos {
-    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: auto;
-}
+
 /*nav na vertical inicio*/
 nav.lateral ul {
     list-style-type: none;
