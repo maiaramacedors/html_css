@@ -238,6 +238,7 @@ table.tabela th,
 table.tabela td{
     border: 1px solid gray;
     padding: 2%;
+    text-align: center;
 }
 
 table.tabela tr:nth-child(even) {
@@ -252,7 +253,7 @@ table.tabela th {
 }
 
 table.tabela {
-    border: 1px solid pink;
+    border: 1px solid red;
     border-collapse: collapse;
     width: 100%;
     margin-top: 2%;
@@ -260,7 +261,7 @@ table.tabela {
 
 table.tabela th,
 table.tabela td{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 2%;
 }
 
