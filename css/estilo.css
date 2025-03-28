@@ -41,6 +41,7 @@ body {
 #container { /*container aplica a regra CSS ao elemento com id exemplo no index.html*/
     margin: 0 auto; /*define a margem superior e inferior*/
     width: 80%; /*define a largura do container com 80%*/
+    text-align: center;
 }
 
 header,
