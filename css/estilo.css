@@ -41,7 +41,6 @@ body {
 #container { /*container aplica a regra CSS ao elemento com id exemplo no index.html*/
     margin: 0 auto; /*define a margem superior e inferior*/
     width: 80%; /*define a largura do container com 80%*/
-    text-align: center;
 }
 
 header,
@@ -194,6 +193,17 @@ nav.topo .active {
 }
 
 /* nav topo fim*/
+
+/* Centralizar a imagem horizontalmente dentro de um contêiner */
+.container {
+    text-align: center;
+}
+
+img {
+    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
 
 /* nav superior inicio */
 
