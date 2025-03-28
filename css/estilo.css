@@ -233,6 +233,7 @@ table.tabela {
     border-collapse: collapse;
     width: 100%;
     margin-top: 2%;
+    background-color: gray
 }
 table.tabela th,
 table.tabela td{
@@ -263,7 +264,6 @@ table.tabela th,
 table.tabela td{
     border: 1px solid white;
     padding: 2%;
-    background-color: gray
 }
 
 table.tabela tr:nth-child(even) {
