@@ -194,17 +194,6 @@ nav.topo .active {
 
 /* nav topo fim*/
 
-/* Centralizar a imagem horizontalmente dentro de um contêiner */
-.container {
-    text-align: center;
-}
-
-.alunos {
-    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: auto;
-}
-
-
 /* nav superior inicio */
 
 nav.superior ul {
@@ -242,6 +231,7 @@ nav.superior .active {
 }
 
 /*nav superior fim*/
+
 table.tabela {
     border: 1px solid black;
     border-collapse: collapse;
@@ -282,7 +272,7 @@ table.tabela td{
 
 table.tabela tr:nth-child(even) {
     background-color: gray;
-    color: black;
+    
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
