@@ -245,7 +245,7 @@ table.tabela tr:nth-child(even) {
 }
 
 table.tabela th {
-    background-color: darkslategray;
+    background-color: black;
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -260,7 +260,7 @@ table.tabela {
 
 table.tabela th,
 table.tabela td{
-    border: 1px solid red;
+    border: 1px solid black;
     padding: 2%;
 }
 
