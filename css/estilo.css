@@ -125,9 +125,10 @@ footer {
     width: 150px;
 }
 .alunos {
-    margin-top: 50px; /* Distância de 50px do topo */
+    margin-top: 100px; /* Distância de 50px do topo */
     width: 300px; /* Definir a largura da imagem */
     height: auto; /* Mantém a proporção da imagem */
+    justify-content: center;
 }
 /*nav na vertical inicio*/
 nav.lateral ul {
